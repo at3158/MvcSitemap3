@@ -244,6 +244,7 @@
     <Compile Include="Models\DAO\SmUsers.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SessionBasedSiteMapCacheKeyGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\MenuNodeProvider.cs" />
     <Compile Include="Service\SmMenuService.cs" />

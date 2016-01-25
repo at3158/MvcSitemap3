@@ -14,6 +14,7 @@ using MvcSiteMapProvider.Web.Compilation;
 using MvcSiteMapProvider.Web.Mvc;
 using MvcSiteMapProvider.Web.UrlResolver;
 using MvcSiteMapProvider.Xml;
+using MvcSitemap3.Models;
 
 namespace MvcSitemap3.DI.Unity.ContainerExtensions
 {
@@ -84,6 +85,9 @@ namespace MvcSitemap3.DI.Unity.ContainerExtensions
                 new ResolvedArrayParameter<ISiteMapNodeUrlResolver>(this.Container.ResolveAll<ISiteMapNodeUrlResolver>().ToArray())
                 ));
 
+// CacheKey Generator
+            this.Container.RegisterType<ISiteMapCacheKeyGenerator, SessionBasedSiteMapCacheKeyGenerator>();
+           
 // Visibility Providers
             this.Container.RegisterType<ISiteMapNodeVisibilityProviderStrategy, SiteMapNodeVisibilityProviderStrategy>(new InjectionConstructor(
                 new ResolvedArrayParameter<ISiteMapNodeVisibilityProvider>(this.Container.ResolveAll<ISiteMapNodeVisibilityProvider>().ToArray()),
