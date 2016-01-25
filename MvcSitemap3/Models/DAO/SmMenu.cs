@@ -99,5 +99,9 @@ namespace MvcSitemap3.Models.DAO
     public class SmDbContext : DbContext
     {
         public DbSet<SmMenu> SmMenus { get; set; }
+        public DbSet<SmUser> SmUsers { get; set; }
+        public DbSet<SmRole> SmRoles { get; set; }
+        public DbSet<SmUserRole> SmUserRoles { get; set; }
+        public DbSet<SmRoleMenu> SmRoleMenus { get; set; }
     }
 }

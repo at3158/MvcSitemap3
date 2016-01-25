@@ -110,4 +110,3 @@ C:\PROJECTS\MvcSitemap3\MvcSitemap3\bin\zh-Hant\Microsoft.Owin.Security.Facebook
 C:\PROJECTS\MvcSitemap3\MvcSitemap3\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
 C:\PROJECTS\MvcSitemap3\MvcSitemap3\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
 C:\PROJECTS\MvcSitemap3\MvcSitemap3\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\PROJECTS\MvcSitemap3\MvcSitemap3\obj\Debug\MvcSitemap3.csprojResolveAssemblyReference.cache

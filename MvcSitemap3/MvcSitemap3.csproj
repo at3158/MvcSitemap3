@@ -246,8 +246,13 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\SessionBasedSiteMapCacheKeyGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\SmRoleProvider.cs" />
     <Compile Include="Service\MenuNodeProvider.cs" />
     <Compile Include="Service\SmMenuService.cs" />
+    <Compile Include="Service\SmRoleMenuService.cs" />
+    <Compile Include="Service\SmRoleService.cs" />
+    <Compile Include="Service\SmUserRoleService.cs" />
+    <Compile Include="Service\SmUserService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -287,7 +292,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
